@@ -51,9 +51,6 @@ int APIENTRY WinMain(
 	// create a player.
 	ISprite* sprite = system->createSprite("data/player.bmp");
 
-	// create a rockets.
-
-
 	float horizontalPosition = 320;
 	float lastTime = system->getElapsedTime();
 	while (system->update())
