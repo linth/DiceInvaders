@@ -44,7 +44,7 @@ int APIENTRY WinMain(
 {
 	DiceInvadersLib lib(L"DiceInvaders.dll");
 	IDiceInvaders* system = lib.get();
-
+	
 	// init the windows.
 	system->init(640, 480);
 
